@@ -1,0 +1,55 @@
+body
+{
+    background-color: bisque;
+}
+a:link  
+{
+    color:bisque;
+    background-color:antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:visited
+{
+    color: darkgoldenrod;
+    background-color:blanchedalmond;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+a:hover
+{
+    color:darkkhaki;
+    background-color: tan;
+    text-decoration: underline;
+}
+
+a:active
+{
+    color:rgb(125, 78, 201);
+    background-color: rgb(230, 183, 123);
+    text-decoration: underline;   
+}
+.header 
+{min-height: 50%;
+    min-width: 500px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.img-border 
+{border: 2px solid black;
+}
+   
